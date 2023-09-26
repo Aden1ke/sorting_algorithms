@@ -50,9 +50,9 @@ int lomuto_partition(int *array, ssize_t low, ssize_t high, size_t size)
 /**
  * qs - qucksort algorithm implementation
  * @array: array
- * @first: first array element
- * @last: last array element
  * @size: array size
+ * @low: position
+ * @high: position
  */
 void qs(int *array, ssize_t low, ssize_t high, int size)
 {
